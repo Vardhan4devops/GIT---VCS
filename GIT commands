@@ -1,0 +1,57 @@
+Version Control System - GIT:
+-----------------------------------
+Version control system keeps records of code changes, allows collaborative development and allows to know who, when and what changes are made and allows to revert required changes.
+
+
+vcs-types:
+--------------
+Local: git installed in local computer to track changes.
+
+Centralized: Its available remotely, developers can access it. No local copy is available. If centralized repo is not accessible, team can't make changes on code.
+
+Distributed: In this local and centralized repos are accessible. Team can pull repos from remote repo and can push modified code from local to remote repo. 
+
+
+GIT stages:
+---------------
+working directory,
+
+staging area,
+
+repository.
+
+
+Files
+|       (git add)
+Staging
+|       (git commit)
+Local repo
+
+Git commands:
+--------------------
+git init: to initialise the git repo
+
+git status: to see modified files
+
+git add: to add files to staging area
+
+git commit: to save changes to repo
+git remote add origin https://github.com/Vardhan4devops/GIT---VCS.git
+git push -u origin main
+git remote add origin https://github.com/Vardhan4devops/GIT---VCS.git
+git branch -M main
+git push -u origin main
+
+git log: to see commit IDs
+
+git diff: to compare files between working & staging area
+
+git diff --staged: to compare files between staging & local repo
+
+git diff HEAD: to compare files between working & local repo
+
+git diff HEAD HEAD~1: to see differences between latest & previous commit
+
+git show <log id>: to see what changes are made to the commit
+
+git annotate: to see who worked & what changes are made to the file.
